@@ -27,6 +27,15 @@ header {
     font-size: 18px;
 }
 
+
+/* Main */
+.flex-text {
+    display: flex;
+    gap: 40px;
+}
+
+
+
 /*Breakpoints*/
 @media(max-width: 1200px) {
     .container {
@@ -52,6 +61,11 @@ header {
     .nav-menu {
         flex-wrap: wrap;
         row-gap: 8px;
+    }
+
+    .flex-text {
+        flex-direction: column;
+        row-gap: 10px;
     }
 }
 
