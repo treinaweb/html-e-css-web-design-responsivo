@@ -51,6 +51,7 @@ header {
 
     .nav-menu {
         flex-wrap: wrap;
+        row-gap: 8px;
     }
 }
 
