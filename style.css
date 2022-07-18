@@ -21,10 +21,16 @@
     .container {
        padding: 0 10px;
     }
+
+    .img {
+        width: 100%;
+    }
 }
 
 @media(max-width: 576px) {
     .container {
         padding: 0 5px;
     }
+
+
 }
