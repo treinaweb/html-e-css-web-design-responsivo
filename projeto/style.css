@@ -114,3 +114,22 @@ ul {
     transform: scale(1.05);
     transition: .6s;
 }
+
+/* Fotos section */
+.galeria-fotos {
+    background-color: #eeeeee;
+    padding: 50px 0;
+}
+
+.card-field {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px;
+    column-gap: 30px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.424);
+    padding: 10px;
+}
