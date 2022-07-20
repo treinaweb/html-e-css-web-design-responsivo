@@ -38,7 +38,7 @@ header {
 .cards {
     margin: 50px 0;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 40px;
 }
 
@@ -54,6 +54,11 @@ header {
 @media(max-width: 992px) {
     .container {
         max-width: 700px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 80%));
+        justify-content: center;
     }
 }
 
@@ -75,10 +80,6 @@ header {
         flex-direction: column;
         row-gap: 10px;
     }
-
-    .cards {
-        grid-template-columns: 1fr 1fr;
-    }
 }
 
 @media(max-width: 576px) {
@@ -91,10 +92,4 @@ header {
         align-items: center;
         row-gap: 15px;
     }
-
-    .cards {
-        grid-template-columns: minmax(200px, 350px);
-        justify-content: center;
-    }
-
 }
