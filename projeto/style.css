@@ -133,3 +133,35 @@ ul {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.424);
     padding: 10px;
 }
+
+/* Footer */
+footer {
+    padding: 50px 0;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer ul li {
+    width: 15px;
+    height: 15px;
+    border: solid 1px #000;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul li:hover {
+    transform: scale(1.05);
+    transition: .6s;
+}
