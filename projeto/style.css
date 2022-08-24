@@ -164,7 +164,7 @@ footer ul {
     margin-top: 20px;
 }
 
-footer ul li {
+footer ul a {
     width: 15px;
     height: 15px;
     border: solid 1px #000;
